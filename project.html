@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/09363de3c0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- page1 -->
+    <!-- header -->
+    <section class="sub-header">
+        <nav>
+            <!--  nav logo -->
+            <a href="index.html"><img src="mylogo.jpg" alt=""></a>
+            <div class="logo name"><a href="#home"></a></div>
+            <!-- nav links menu -->
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fas fa-list-alt" onclick="showMenu()"></i>
+        </nav>
+        <h1>project!</h1>
+    </section>
+
+    <!-- ----------project------- -->
+    <section class="project">
+        <h2>my project work</h2>
+        <p>
+            i worked with a plan which has changes something improvement in portfolio projects. with a task or problem in school that required work over a period of time and is often displayed or presented a business projects. group of houses or people, buildings built according to a single plan of marketting online.
+        </p>
+
+        <div class="row">
+            <div class="project-col">
+                <img src="img_girl.jpg" alt="">
+                <div class="layer">
+                    <h3>Port-folio</h3>
+                </div>
+            </div>
+            <div class="project-col">
+                <img src="img_food.jpg" alt="">
+                <div class="layer">
+                    <h3>E-commerce</h3>
+                </div>
+            </div>
+            <div class="project-col">
+                <img src="img_car.jpg" alt="">
+                <div class="layer">
+                    <h3>Business</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------acheivement---------->
+    <section class="acheivement">
+        <h1>my acheivement</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, optio! Cumque </p>
+
+        <div class="row">
+            <div class="acheivement-col">
+                <img src="10001714.jpg" alt="">
+                <h3>team leader</h3>
+                <p>i played a wild role in team for manupulate a studies throw friends and worked on a assessment and projects</p>
+            </div>
+            <div class="acheivement-col">
+                <img src="lap.jpg" alt="">
+                <h3>co-ordinator</h3>
+                <p>my duties include performing specialized tasks, managing a team of staff members and establishing relationships with vendors and freelance professionals.</p>
+            </div>
+            <div class="acheivement-col">
+                <img src="mac.jpg" alt="">
+                <h3>expeditious</h3>
+                <p>When I need fast websites for bussiness, I expect to receive it in an expeditious timeframe.
+                  The man was saved because of the website doctor's expeditious probs.
+                  Because expeditious is included with all deliveries, I don't mind paying the company's membership fee.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>know me!</h4>
+        <p>join me on Social media which are interactive technologies that allow the creation or sharing/exchange of information, ideas, career interests, and other forms of expression via virtual communities and networks... <br> so lets, <q>make</q> together! </p>
+        <div class="icons">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.snapchat.com"><i class="fab fa-snapchat"></i></a>
+        </div>
+
+        <p class="copyright">made by<i class="fab fa-atlassian">SachinKuravan</i>
+    </section>
+
+
+
+
+
+    <!-- adding javascript funtion for toogle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
